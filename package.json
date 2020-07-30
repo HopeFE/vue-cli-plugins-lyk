@@ -1,0 +1,29 @@
+{
+  "workspaces": [
+    "packages/@vuetify/*",
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "lint": "lerna run lint -- --fix",
+    "release": "lerna version && lerna publish from-git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "husky": "^4.2.5",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "semver": "^7.3.2",
+    "vue": "^2.6.11",
+    "vue-eslint-parser": "^7.1.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  }
+}
